@@ -13,6 +13,12 @@ Aplicação minimalista de Gantt Chart feita com **Vue 3 + Quasar + Quanttastic*
 
 ---
 
+## Objetivos
+ - Aprofundar conhecimentos relacionados a bancos não relacionais (MongoDB).
+ - Se familiarizar com o uso do Typescript.
+ - Construir uma aplicação simples e de fácil de deploy para gerenciar os projetos do meu time
+---
+
 ## Funcionalidades planejadas
 
 O app será desenvolvido incrementalmente com as seguintes funcionalidades:
