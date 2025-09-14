@@ -1,32 +1,29 @@
-# Simplest Gantt Possible (sgp-app)
+# Simplest Gantt Possible
 
-Simplest Gantt Possible for Software Project Managements
+Aplicação minimalista de Gantt Chart feita com **Vue 3 + Quasar + Quanttastic**, com backend persistindo dados no **MongoDB**. O objetivo é ser simples e incrementável, adicionando novas funcionalidades aos poucos.
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+---
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+## Tecnologias
 
+- Frontend: Vue 3 + Quasar
+- Gantt Chart: Quanttastic
+- Banco de dados: MongoDB
+- Docker + Docker Compose para facilitar o deploy
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+---
 
+## Funcionalidades planejadas
 
-### Build the app for production
-```bash
-quasar build
-```
+O app será desenvolvido incrementalmente com as seguintes funcionalidades:
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+### Checklist de Desenvolvimento
+
+- [ ] Integração com MongoDB
+- [ ] Persistência das tarefas com MongoDB
+- [ ] Dockerfile e Docker Compose para subir a aplicação completa
+- [ ] Customização de tema e layout
+- [ ] Escolha de mês no Gantt Chart
+- [ ] Página de adição de projeto
+- [ ] Página de edição de quadro (ex.: título do quadro)
+- [ ] Página de listagem de projetos
